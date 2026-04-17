@@ -1,0 +1,21 @@
+{
+  "overview": "Shoppy is a shopping app where you browse products, search and filter by category, and manage a persistent cart with live item count.",
+  "features": [
+    "Product catalog grid with image, name, price, and description",
+    "Search by name and filter by category",
+    "Product detail view on click",
+    "Shopping cart with add/remove and quantity controls",
+    "Cart badge in the top bar that updates in real time",
+    "Cart state saved so it survives page refreshes"
+  ],
+  "category": "productivity",
+  "tags": [
+    "shopping",
+    "ecommerce",
+    "catalog",
+    "cart",
+    "search",
+    "filter"
+  ],
+  "last_updated": "2026-04-17T05:20:42.854Z"
+}

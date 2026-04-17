@@ -1,0 +1,16 @@
+type ProductId = nat;
+type Product = 
+ record {
+   category: text;
+   description: text;
+   id: ProductId;
+   imageUrl: text;
+   name: text;
+   price: float64;
+   stock: nat;
+ };
+service : {
+  getCategories: () -> (vec text) query;
+  getProduct: (id: ProductId) -> (opt Product) query;
+  getProducts: () -> (vec Product) query;
+}
